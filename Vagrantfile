@@ -25,7 +25,8 @@ Vagrant.configure(2) do |config|
 
     chef.add_recipe "apt"
     chef.add_recipe "build-essential"
-    chef.add_recipe "ruby-deps"
+    chef.add_recipe "infrastructure-challenge::mysql"
+    chef.add_recipe "infrastructure-challenge::ruby-deps"
     chef.add_recipe "chruby::system"
     chef.add_recipe "mysql::server"
     chef.add_recipe "mysql::client"
