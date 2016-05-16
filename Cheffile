@@ -1,0 +1,12 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'chruby', git: 'https://github.com/Atalanta/chef-chruby'
+cookbook 'database'
+cookbook 'mysql', '5.6'
+cookbook 'mysql2_chef_gem', '= 0.1.0'
+cookbook 'nginx'
+cookbook 'ohai'
+cookbook 'ruby_build'
+cookbook 'vim'
