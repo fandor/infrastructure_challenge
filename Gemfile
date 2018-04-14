@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'mysql2'
 gem 'rails', '5.2.0'
+gem 'pg'
 gem 'unicorn'
 gem 'sass-rails'
 gem 'uglifier'

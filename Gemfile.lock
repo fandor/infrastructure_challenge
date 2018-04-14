@@ -71,7 +71,6 @@ GEM
     loofah (2.2.2)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mysql2 (0.4.4)
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     marcel (0.3.2)
@@ -85,6 +84,7 @@ GEM
     nio4r (2.3.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    pg (1.0.0)
     rack (2.0.4)
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
@@ -159,7 +159,7 @@ DEPENDENCIES
   coffee-rails
   jbuilder
   jquery-rails
-  mysql2
+  pg
   rails (= 5.2.0)
   sass-rails
   turbolinks
